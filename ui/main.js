@@ -8,5 +8,5 @@ console.log('Loaded!');
     }
     img.onclick(){
         var interval=setInterval(moveRight,20);
-    }
+    };
     
