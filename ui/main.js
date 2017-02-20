@@ -4,8 +4,8 @@ var img=document.getElementById('anony');
 function moveRight()
 {
     marginLeft=marginLeft+1;
-    img.style.marginLeft=marginLeft+"px";
+    img.style.left=marginLeft+"px";
 }
 img.onclick=function(){
-    var interval=setInterval(moveRight,10);
+   setInterval(function(){moveRight();},50);
 };
